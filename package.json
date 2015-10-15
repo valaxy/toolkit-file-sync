@@ -1,0 +1,22 @@
+{
+  "name": "toolkit-file-sync",
+  "version": "0.1.0-dev",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "chokidar": "^1.2.0",
+    "forever-monitor": "^1.7.0",
+    "fs-extra": "^0.24.0",
+    "fs-plus": "^2.8.1",
+    "mkdirp": "^0.5.1",
+    "ssh2": "^0.4.11"
+  },
+  "devDependencies": {
+    "mocha": "^2.3.3",
+    "temp": "^0.8.3"
+  }
+}
